@@ -33,8 +33,7 @@ if fileChooser!='':
 
     if export:
         parentNode.saveItemsToFile(selectedNodes,fileChooser)
-        #hou.ui.displayMessage("File exported")
-
+        
         jsonFile=fileChooser.replace('.nd','.json')
         jsonContents=json.dumps(exportInfo,indent=4,default=str,sort_keys=True)
         open(jsonFile,'w').write(jsonContents)

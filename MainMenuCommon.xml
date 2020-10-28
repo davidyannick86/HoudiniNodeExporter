@@ -1,7 +1,7 @@
 <mainMenu>
     <menuBar>
         <subMenu>
-            <label> ||  DYT Tools || </label> 
+            <label>DYT Tools</label> 
             <scriptItem>
                 <label>
                     Import Tree
