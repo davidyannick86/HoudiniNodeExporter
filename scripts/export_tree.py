@@ -38,4 +38,4 @@ if fileChooser!='':
         jsonContents=json.dumps(exportInfo,indent=4,default=str,sort_keys=True)
         open(jsonFile,'w').write(jsonContents)
 
-        hou.ui.setStatusMessage("File exported",hou.severityType.ImportantMessage)
+        hou.ui.setStatusMessage("File exported",hou.severityType.Warning)
