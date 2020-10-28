@@ -1,0 +1,8 @@
+<menuDocument>
+    <menu>
+    	<scriptItem>
+        	<label>Export tree</label>
+            <scriptPath>$NODE_EXPORTER/scripts/export_tree.py</scriptPath>
+		</scriptItem>
+	</menu>
+</menuDocument>
