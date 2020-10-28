@@ -15,7 +15,6 @@ exportInfo['date']=datetime.now()
 
 
 fileChooser=hou.ui.selectFile(
-    #start_directory="C:\Users\david\Dropbox\Assets\NodeRepos"
     start_directory=hou.getenv('REPO'),
     title="Node exporter",
     pattern="*.nd",

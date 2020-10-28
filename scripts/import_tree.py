@@ -2,7 +2,6 @@ import os,subprocess,json
 
 
 fileChooser=hou.ui.selectFile(
-    #start_directory="C:\Users\david\Dropbox\Assets\NodeRepos",
     start_directory=hou.getenv('REPO'),
     title="Node importer",
     pattern="*.nd",
