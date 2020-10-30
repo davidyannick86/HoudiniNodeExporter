@@ -3,9 +3,7 @@
         <subMenu>
             <label>DYT Tools</label> 
             <scriptItem>
-                <label>
-                    Import Tree
-                </label>
+                <label>Import Tree</label>
                 <scriptPath>$NODE_EXPORTER/scripts/import_tree.py</scriptPath>
             </scriptItem>
         </subMenu>

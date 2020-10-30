@@ -30,7 +30,9 @@ if fileChooser!='':
         if hou.ui.displayMessage("Overwrite File ?",('Yes','No',))==1:
             export=False
 
-
+    if fileChooser[-3:] != '.nd':
+        fileChooser+='.nd'
+        
     if export:
         parentNode.saveItemsToFile(selectedNodes,fileChooser)
         
